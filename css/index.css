@@ -1,0 +1,39 @@
+#oradores > p {
+    font-size: 12px;
+}
+.textoChico {
+    font-size: .8rem;
+}
+
+.carousel-item img {
+    filter: brightness(50%);
+}
+
+.card-body > div {
+    height: 21px;
+}
+.card-body > div >.btn {
+    font-size: 12px;
+    padding: 0 3px;
+}
+
+.btn-bsas {
+    height: 28px;
+    font-size: .8rem;
+    padding: 0 5px 2px ;
+}
+
+.footer{
+    height: 100px;
+    background-color: rgb(23, 56, 83);
+}
+
+.footer > div > a{
+    text-decoration: none;
+    color: lightgray;
+}
+.footer > div {
+    margin: 0 15px;
+    text-align: center;
+    width: 150px;
+}
