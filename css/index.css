@@ -14,7 +14,6 @@
     padding: 0 3px;
 }
 
-.imgHonolulu,
 .description {
     border: solid 1px lightgray;
 }
@@ -26,7 +25,18 @@
     padding: 0 8px 3px;
 }
 
+.img-fluid{
+    border: lightgray solid 1px;
+    width: 120%;
+    
+}
+
+.card {
+    width: 16rem;
+}
+
 .footer{
+    width: 100%;
     height: 100px;
     background-color: #1d455c;
 }
@@ -50,4 +60,15 @@
     background-color: #96c93e;
     border-radius: 2px;
     border: none;
+}
+
+@media (max-width:820px ) {
+    .footer {
+        display: block;
+        flex-direction: column;
+        height: 240px;
+    }
+    .footer>div {
+        margin-top: 5px;
+    }
 }
