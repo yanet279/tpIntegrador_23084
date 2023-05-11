@@ -9,23 +9,26 @@
     filter: brightness(50%);
 }
 
-.card-body > div {
-    height: 21px;
-}
 .card-body > div >.btn {
     font-size: 12px;
     padding: 0 3px;
 }
 
+.imgHonolulu,
+.description {
+    border: solid 1px lightgray;
+}
+
 .btn-bsas {
+    border-radius: 3px;
     height: 28px;
     font-size: .8rem;
-    padding: 0 5px 2px ;
+    padding: 0 8px 3px;
 }
 
 .footer{
     height: 100px;
-    background-color: rgb(23, 56, 83);
+    background-color: #1d455c;
 }
 
 .footer > div > a{
@@ -36,4 +39,15 @@
     margin: 0 15px;
     text-align: center;
     width: 150px;
+}
+
+.decoration {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.btn-enviar{
+    background-color: #96c93e;
+    border-radius: 2px;
+    border: none;
 }

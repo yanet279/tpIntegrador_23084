@@ -38,7 +38,7 @@
                         <a class="nav-link ">Conviértete en un orador</a>
                     </li>
                     <li class="nav-item" style="align-items: flex-end;">
-                        <a href="#comprar" class="nav-link ">Comprar Tickets</a>
+                        <a href="#comprar" class="nav-link text-success fw-medium">Comprar Tickets</a>
                     </li>
                 </ul>
             </div>
@@ -144,10 +144,10 @@
 
     <!-- Bs As -->
     <div class="row">
-        <div class="col-md pe-0">
+        <div class="col-md pe-0 imgHonolulu">
             <img src="images/honolulu.jpg" class="img-fluid" alt="Responsive image">
         </div>
-        <div class="col-md bg-dark text-light pt-2 p-3">
+        <div class="col-md bg-dark text-light pt-2 pb-2 p-3 description">
             <h4>Bs As - Octubre</h4>
             <p class="textoChico">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km<sup>2</sup> de superficie)</p>
             <button type="button" class="btn btn-outline-light btn-bsas">Conoce más</button>
@@ -156,28 +156,30 @@
 
     <!-- formulario inscripción -->
     <div class="container" id="comprar">
-        <p>CONVIÉRTETE EN UN</p>
-        <div class="fs-4 my-4 text-center">ORADOR</div>
-        <p>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+        <div class="text-center mt-4">
+            <p class="mb-0 form-control-sm">CONVIÉRTETE EN UN</p>
+            <div class="fs-1 fw-medium">ORADOR</div>
+            <p>Anótate como orador para dar una <span class="decoration">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+        </div>
         <form action="#" method="post">
             <div class="row">
                 <div class="col-md mb-3">
-                    <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Nombre">
+                    <input type="text" name="nombre" id="nombre" class="form-control form-control-sm" required placeholder="Nombre">
                 </div>
                 <div class="col-md mb-3">
-                    <input type="text" name="apellido" id="apellido" class="form-control" required placeholder="Apellido">
+                    <input type="text" name="apellido" id="apellido" class="form-control form-control-sm" required placeholder="Apellido">
                 </div>
             </div>
-
             <div class="row">
-                <div class="col-md mb-3">
-                    <textarea class="form-control form-control-lg" name="charla" id="charla" cols="30" rows="4" placeholder="Sobre qué quieres hablar?"></textarea>
+                <div class="col-md mb-2">
+                    <textarea class="form-control form-control-lg  text-secondary" name="charla" id="charla" cols="30" rows="4" placeholder="Sobre qué quieres hablar?"></textarea>
                 </div>
+                <p class="text-secondary form-control-sm mt-0 m-1">Recuerda incluir un título para tu charla</p>
             </div>
 
             <div class="row mb-4 my-2">
                 <div class="col">
-                    <input type="submit" value="Comprar" class="btn btn-primary">
+                    <input type="submit" value="Enviar" class="btn-enviar form-control text-light fs-5">
                 </div>
                 
             </div>
