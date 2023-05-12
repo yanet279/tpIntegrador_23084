@@ -1,17 +1,28 @@
+.navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
 #oradores > p {
     font-size: 12px;
-}
-.textoChico {
-    font-size: .8rem;
 }
 
 .carousel-item img {
     filter: brightness(50%);
 }
 
+.textoChico {
+    font-size: .8rem;
+}
+
 .card-body > div >.btn {
     font-size: 12px;
     padding: 0 3px;
+}
+
+.card {
+    width: 16rem;
 }
 
 .description {
@@ -27,12 +38,7 @@
 
 .img-fluid{
     border: lightgray solid 1px;
-    width: 120%;
-    
-}
-
-.card {
-    width: 16rem;
+    width: 120%;   
 }
 
 .footer{
